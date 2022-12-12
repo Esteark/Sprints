@@ -187,12 +187,12 @@ body {
 
 .textosFooterCard2 {
   text-align: right;
-  margin-top: 0.07rem;
 }
 .textosFooterCard2 h3 {
   font-size: 0.75rem;
   font-weight: 700;
   color: hsl(25, 47%, 15%);
+  margin-top: 1.5rem;
 }
 
 .textosFooterCard2 h4 {
