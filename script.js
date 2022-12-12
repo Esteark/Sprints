@@ -2,59 +2,59 @@
 let semanaAhorro = [];
 let ahorro = 0;
 let dia = 0;
-for (i = 1; i <= 7; i++) {
-  switch (i) {
-    case 1:
-      dia = Number(prompt("Ingrese lo que ahorro el día lunes por favor", "0"));
-      semanaAhorro.push(dia);
+// for (i = 1; i <= 7; i++) {
+//   switch (i) {
+//     case 1:
+//       dia = Number(prompt("Ingrese lo que ahorro el día lunes por favor", "0"));
+//       semanaAhorro.push(dia);
 
-      break;
-    case 2:
-      dia = Number(
-        prompt("Ingrese lo que ahorro el día martes por favor", "0")
-      );
-      semanaAhorro.push(dia);
+//       break;
+//     case 2:
+//       dia = Number(
+//         prompt("Ingrese lo que ahorro el día martes por favor", "0")
+//       );
+//       semanaAhorro.push(dia);
 
-      break;
-    case 3:
-      dia = Number(
-        prompt("Ingrese lo que ahorro el día miercoles por favor", "0")
-      );
-      semanaAhorro.push(dia);
+//       break;
+//     case 3:
+//       dia = Number(
+//         prompt("Ingrese lo que ahorro el día miercoles por favor", "0")
+//       );
+//       semanaAhorro.push(dia);
 
-      break;
-    case 4:
-      dia = Number(
-        prompt("Ingrese lo que ahorro el día jueves por favor", "0")
-      );
-      semanaAhorro.push(dia);
+//       break;
+//     case 4:
+//       dia = Number(
+//         prompt("Ingrese lo que ahorro el día jueves por favor", "0")
+//       );
+//       semanaAhorro.push(dia);
 
-      break;
-    case 5:
-      dia = Number(
-        prompt("Ingrese lo que ahorro el día viernes por favor", "0")
-      );
-      semanaAhorro.push(dia);
+//       break;
+//     case 5:
+//       dia = Number(
+//         prompt("Ingrese lo que ahorro el día viernes por favor", "0")
+//       );
+//       semanaAhorro.push(dia);
 
-      break;
-    case 6:
-      dia = Number(
-        prompt("Ingrese lo que ahorro el día sabado por favor", "0")
-      );
-      semanaAhorro.push(dia);
+//       break;
+//     case 6:
+//       dia = Number(
+//         prompt("Ingrese lo que ahorro el día sabado por favor", "0")
+//       );
+//       semanaAhorro.push(dia);
 
-      break;
-    case 7:
-      dia = Number(
-        prompt("Ingrese lo que ahorro el día domingo por favor", "0")
-      );
-      semanaAhorro.push(dia);
+//       break;
+//     case 7:
+//       dia = Number(
+//         prompt("Ingrese lo que ahorro el día domingo por favor", "0")
+//       );
+//       semanaAhorro.push(dia);
 
-      break;
-  }
-}
+//       break;
+//   }
+// }
 // Si no queremos realizar esto por porpmts descomentar la siguiente linea y comentar la otra
-// semanaAhorro.push(1000, 2000, 3000, 5000, 4000, 3000, 4000);
+semanaAhorro.push(1000, 2000, 3000, 5000, 4000, 3000, 4000);
 
 for (let i = 0; i < semanaAhorro.length; i++) {
   ahorro += semanaAhorro[i];
